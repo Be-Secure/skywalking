@@ -14,7 +14,7 @@ microservices, cloud native and container-based (Docker, Kubernetes, Mesos) arch
 [![Build Status](https://travis-ci.org/apache/incubator-skywalking.svg?branch=master)](https://travis-ci.org/apache/incubator-skywalking)
 [![Join the chat at https://gitter.im/sky-walking/Lobby](https://badges.gitter.im/openskywalking/Lobby.svg)](https://gitter.im/openskywalking/Lobby)
 [![OpenTracing-1.x Badge](https://img.shields.io/badge/OpenTracing--1.x-enabled-blue.svg)](http://opentracing.io)
-
+[![CodeQL](https://github.com/Be-Secure/skywalking/actions/workflows/codeql.yml/badge.svg)](https://github.com/Be-Secure/skywalking/actions/workflows/codeql.yml)
 # Abstract
 **SkyWalking** is an open source APM system, including monitoring, tracing, diagnosing capabilities for distributed system
 in Cloud Native architecture. 
