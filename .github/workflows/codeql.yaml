@@ -18,11 +18,9 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ 'master' ]
+    branches: [ 'v9.5.0_release' ]
   pull_request:
-    branches: [ 'master' ]
-  schedule:
-    - cron: '28 3 * * *'
+    branches: [ 'v9.5.0_release' ]
 
 concurrency:
   group: codeql-${{ github.event.pull_request.number || github.ref }}
